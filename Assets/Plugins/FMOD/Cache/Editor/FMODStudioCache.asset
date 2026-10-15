@@ -1,0 +1,2026 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8764005867404709782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/cassiane/vo_cassiane_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/cassiane/vo_cassiane_completo
+  Guid:
+    Data1: -1991753022
+    Data2: 1113334613
+    Data3: -1605902447
+    Data4: -1533553580
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 78000
+--- !u!114 &-8314381291397764782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/alexandra/vo_alexandra_capacete_chave_fenda
+  m_EditorClassIdentifier: 
+  Path: event:/vo/alexandra/vo_alexandra_capacete_chave_fenda
+  Guid:
+    Data1: -2050591066
+    Data2: 1312671140
+    Data3: -1984402535
+    Data4: 2108599511
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41000
+--- !u!114 &-8218435769520873990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/abrilhante/vo_abrilhante_ecopad
+  m_EditorClassIdentifier: 
+  Path: event:/vo/abrilhante/vo_abrilhante_ecopad
+  Guid:
+    Data1: -560498060
+    Data2: 1180901302
+    Data3: -1374986050
+    Data4: -2137266948
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19500
+--- !u!114 &-7893774062946225681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus/mus_ingame
+  m_EditorClassIdentifier: 
+  Path: event:/mus/mus_ingame
+  Guid:
+    Data1: 478083920
+    Data2: 1208878738
+    Data3: 701922457
+    Data4: -2006598882
+  Banks:
+  - {fileID: -6135555255384469854}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2452669504428879660}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
+--- !u!114 &-7663040346881245793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/alexandra/vo_alexandra_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/alexandra/vo_alexandra_completo
+  Guid:
+    Data1: -1431726852
+    Data2: 1331821082
+    Data3: 37522608
+    Data4: 544966619
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 80000
+--- !u!114 &-7601239283179435633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/gloria/vo_gloria_barcaca
+  m_EditorClassIdentifier: 
+  Path: event:/vo/gloria/vo_gloria_barcaca
+  Guid:
+    Data1: -1979468531
+    Data2: 1178152953
+    Data3: 1412848319
+    Data4: -935218764
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25000
+--- !u!114 &-7367938479892579944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ingame/sfx_item_right
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ingame/sfx_item_right
+  Guid:
+    Data1: 422062327
+    Data2: 1325696370
+    Data3: 1200983727
+    Data4: -1879522770
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1466
+--- !u!114 &-7141491435205298670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_map
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_map
+  Guid:
+    Data1: -1407311107
+    Data2: 1232094258
+    Data3: 1219388586
+    Data4: -2005345843
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7060453785755200943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/cassiane/vo_cassiane_nuvens
+  m_EditorClassIdentifier: 
+  Path: event:/vo/cassiane/vo_cassiane_nuvens
+  Guid:
+    Data1: 817780259
+    Data2: 1119282551
+    Data3: 1330459290
+    Data4: 1232512587
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22500
+--- !u!114 &-6835726053612456302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_play_hover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_play_hover
+  Guid:
+    Data1: 1266572136
+    Data2: 1131029652
+    Data3: -233906545
+    Data4: 2075041826
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 933
+--- !u!114 &-6590005238805433993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_laurinha
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_laurinha
+  Guid:
+    Data1: 1324748388
+    Data2: 1340520610
+    Data3: 1642514333
+    Data4: -1371127062
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &-6135555255384469854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/mus.bank
+  m_EditorClassIdentifier: 
+  Path: mulheres_agua_v7/mulheres_agua_v1/Build/Desktop/mus.bank
+  Name: mus
+  StudioPath: bank:/mus
+  lastModified: 638684399159699378
+  FileSizes:
+  - Name: Desktop
+    Value: 6771200
+  Exists: 1
+--- !u!114 &-6116351269440706709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/gloria/vo_gloria_ponte
+  m_EditorClassIdentifier: 
+  Path: event:/vo/gloria/vo_gloria_ponte
+  Guid:
+    Data1: -1215478299
+    Data2: 1208237495
+    Data3: 856234168
+    Data4: 1915332475
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
+--- !u!114 &-5737209090598792198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_cassiane
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_cassiane
+  Guid:
+    Data1: -1609784579
+    Data2: 1092014689
+    Data3: 1859593621
+    Data4: -1841682263
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &-5726427737548769339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/abrilhante/vo_abrilhante_novelo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/abrilhante/vo_abrilhante_novelo
+  Guid:
+    Data1: -880534694
+    Data2: 1280845484
+    Data3: -1044248900
+    Data4: 1633913504
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42000
+--- !u!114 &-5690121139731749159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_abrilhante
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_abrilhante
+  Guid:
+    Data1: 711096112
+    Data2: 1077128504
+    Data3: -1456118136
+    Data4: 1012418249
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &-5468939336967942232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/salete/vo_salete_tabuleiro
+  m_EditorClassIdentifier: 
+  Path: event:/vo/salete/vo_salete_tabuleiro
+  Guid:
+    Data1: 1959117204
+    Data2: 1230333900
+    Data3: 974901632
+    Data4: 1005184462
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13000
+--- !u!114 &-5238458693054900989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ingame/sfx_item_interaction
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ingame/sfx_item_interaction
+  Guid:
+    Data1: 1886235072
+    Data2: 1080660083
+    Data3: 738220686
+    Data4: -1796870628
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1633
+--- !u!114 &-5071765271793005290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/alexandra/vo_alexandra_produtos_limpeza
+  m_EditorClassIdentifier: 
+  Path: event:/vo/alexandra/vo_alexandra_produtos_limpeza
+  Guid:
+    Data1: -995462226
+    Data2: 1166559975
+    Data3: 102893223
+    Data4: -396754160
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41000
+--- !u!114 &-4557431255672232900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/christine/vo_christine_prancheta
+  m_EditorClassIdentifier: 
+  Path: event:/vo/christine/vo_christine_prancheta
+  Guid:
+    Data1: -959490576
+    Data2: 1274125209
+    Data3: -1555468639
+    Data4: -344826033
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24000
+--- !u!114 &-4312969116265950235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/memory/sfx_memory_wrong
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/memory/sfx_memory_wrong
+  Guid:
+    Data1: -1454979822
+    Data2: 1116888820
+    Data3: -60534645
+    Data4: 490487568
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1033
+--- !u!114 &-3652433753878536527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/cassiane/vo_cassiane_arraia
+  m_EditorClassIdentifier: 
+  Path: event:/vo/cassiane/vo_cassiane_arraia
+  Guid:
+    Data1: -48508001
+    Data2: 1192217113
+    Data3: 2029162662
+    Data4: -168432870
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32506
+--- !u!114 &-3486611566324095581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/abrilhante/vo_abrilhante_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/abrilhante/vo_abrilhante_completo
+  Guid:
+    Data1: -481494217
+    Data2: 1337015873
+    Data3: 680134545
+    Data4: -1279677192
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 71000
+--- !u!114 &-3411789977185231108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ingame/sfx_item_play
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ingame/sfx_item_play
+  Guid:
+    Data1: -1293012918
+    Data2: 1271237031
+    Data3: 368355512
+    Data4: -1959428810
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1133
+--- !u!114 &-3392099885769541137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/laurinha/vo_laurinha_onibus
+  m_EditorClassIdentifier: 
+  Path: event:/vo/laurinha/vo_laurinha_onibus
+  Guid:
+    Data1: 34469210
+    Data2: 1260537992
+    Data3: 1773547439
+    Data4: -513796711
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20500
+--- !u!114 &-3288986056030974992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx.bank
+  m_EditorClassIdentifier: 
+  Path: mulheres_agua_v7/mulheres_agua_v1/Build/Desktop/sfx.bank
+  Name: sfx
+  StudioPath: bank:/sfx
+  lastModified: 638684528978029106
+  FileSizes:
+  - Name: Desktop
+    Value: 3035872
+  Exists: 1
+--- !u!114 &-2933211262149920766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/cassiane/vo_cassiane_areia
+  m_EditorClassIdentifier: 
+  Path: event:/vo/cassiane/vo_cassiane_areia
+  Guid:
+    Data1: -743698481
+    Data2: 1325551362
+    Data3: 1440406663
+    Data4: 600876017
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40000
+--- !u!114 &-2452669504428879660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_ingame/p_stage
+  m_EditorClassIdentifier: 
+  Name: p_stage
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 2733402039
+    data2: 899440297
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2179273437200539454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_map_hover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_map_hover
+  Guid:
+    Data1: 1049601110
+    Data2: 1328967828
+    Data3: 1574879676
+    Data4: -1661715595
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1166
+--- !u!114 &-1604281654610264538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_menu
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_menu
+  Guid:
+    Data1: -1812799428
+    Data2: 1327742893
+    Data3: 136132494
+    Data4: 490164302
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27000
+--- !u!114 &-1537068364448235036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus/mus_map_memory
+  m_EditorClassIdentifier: 
+  Path: event:/mus/mus_map_memory
+  Guid:
+    Data1: 1202161415
+    Data2: 1315192247
+    Data3: -1729267787
+    Data4: -620371738
+  Banks:
+  - {fileID: -6135555255384469854}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2397604805527575735}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 194843
+--- !u!114 &-466222451320948713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/diele/vo_diele_vento
+  m_EditorClassIdentifier: 
+  Path: event:/vo/diele/vo_diele_vento
+  Guid:
+    Data1: 871988747
+    Data2: 1323459878
+    Data3: -792875609
+    Data4: -1681798207
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29575
+--- !u!114 &-114268461094440746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/diele/vo_dielle_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/diele/vo_dielle_completo
+  Guid:
+    Data1: -149137480
+    Data2: 1261528848
+    Data3: -816695620
+    Data4: 1930220492
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 7670433639616176176}
+  - {fileID: 8813583955689143919}
+  - {fileID: -6135555255384469854}
+  - {fileID: -3288986056030974992}
+  - {fileID: 8277090329136246487}
+  EditorEvents:
+  - {fileID: -1537068364448235036}
+  - {fileID: -7893774062946225681}
+  - {fileID: -4312969116265950235}
+  - {fileID: 8544300620779168037}
+  - {fileID: -3411789977185231108}
+  - {fileID: -2179273437200539454}
+  - {fileID: -6835726053612456302}
+  - {fileID: 2850443093987800958}
+  - {fileID: 2740247921904355207}
+  - {fileID: 827342969633842614}
+  - {fileID: -5238458693054900989}
+  - {fileID: 7781201675521150261}
+  - {fileID: 5522319740140866378}
+  - {fileID: 7089491105871155012}
+  - {fileID: 8843292876407295192}
+  - {fileID: -7367938479892579944}
+  - {fileID: -5690121139731749159}
+  - {fileID: -1604281654610264538}
+  - {fileID: 3435034968039642363}
+  - {fileID: -6590005238805433993}
+  - {fileID: 3011842617915839900}
+  - {fileID: 8269299852279156492}
+  - {fileID: 3325999220773088198}
+  - {fileID: 8418670602315013469}
+  - {fileID: -7141491435205298670}
+  - {fileID: -5737209090598792198}
+  - {fileID: 1323003295599746012}
+  - {fileID: -466222451320948713}
+  - {fileID: -7601239283179435633}
+  - {fileID: 7922503759908242130}
+  - {fileID: 248163935418840629}
+  - {fileID: -7060453785755200943}
+  - {fileID: 3481637869767175803}
+  - {fileID: 4063723234053107690}
+  - {fileID: 7128304131701832215}
+  - {fileID: 8340994863632646517}
+  - {fileID: -3486611566324095581}
+  - {fileID: 1456828062644993530}
+  - {fileID: 3280595246789147354}
+  - {fileID: 8799182335533800434}
+  - {fileID: -5726427737548769339}
+  - {fileID: -3392099885769541137}
+  - {fileID: 220274127446690291}
+  - {fileID: 219653380738391115}
+  - {fileID: -8218435769520873990}
+  - {fileID: 4666036394480886488}
+  - {fileID: 5420344026417085262}
+  - {fileID: -5468939336967942232}
+  - {fileID: 8713100762690533401}
+  - {fileID: -3652433753878536527}
+  - {fileID: -8314381291397764782}
+  - {fileID: 4152357279697237704}
+  - {fileID: -5071765271793005290}
+  - {fileID: -114268461094440746}
+  - {fileID: -8764005867404709782}
+  - {fileID: 1300340314268778329}
+  - {fileID: -2933211262149920766}
+  - {fileID: 3685535587055333334}
+  - {fileID: 8180248893837280002}
+  - {fileID: 7080133182497040603}
+  - {fileID: 3062013977844449743}
+  - {fileID: 923898133086032213}
+  - {fileID: -6116351269440706709}
+  - {fileID: -4557431255672232900}
+  - {fileID: 3984539216622189285}
+  - {fileID: -7663040346881245793}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 8813583955689143919}
+  StringsBanks:
+  - {fileID: 7670433639616176176}
+  cacheTime: 638739671851330548
+  cacheVersion: 131621
+--- !u!114 &219653380738391115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/diele/vo_diele_pesca
+  m_EditorClassIdentifier: 
+  Path: event:/vo/diele/vo_diele_pesca
+  Guid:
+    Data1: 130210405
+    Data2: 1129721644
+    Data3: -2128457284
+    Data4: 216866970
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28500
+--- !u!114 &220274127446690291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/gloria/vo_gloria_iemanja
+  m_EditorClassIdentifier: 
+  Path: event:/vo/gloria/vo_gloria_iemanja
+  Guid:
+    Data1: -480527012
+    Data2: 1281378572
+    Data3: 995839890
+    Data4: -1620832307
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26000
+--- !u!114 &248163935418840629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/christine/vo_christine_makita
+  m_EditorClassIdentifier: 
+  Path: event:/vo/christine/vo_christine_makita
+  Guid:
+    Data1: -722310623
+    Data2: 1128886088
+    Data3: -2143580749
+    Data4: 2065549166
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85500
+--- !u!114 &827342969633842614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/memory/sfx_memory_right
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/memory/sfx_memory_right
+  Guid:
+    Data1: -1591157317
+    Data2: 1125117110
+    Data3: 624816546
+    Data4: -94906792
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1433
+--- !u!114 &923898133086032213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/laurinha/vo_laurinha_tempero
+  m_EditorClassIdentifier: 
+  Path: event:/vo/laurinha/vo_laurinha_tempero
+  Guid:
+    Data1: 2113045217
+    Data2: 1243909897
+    Data3: -1591068019
+    Data4: -1458106729
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
+--- !u!114 &1300340314268778329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/laurinha/vo_laurinha_celular
+  m_EditorClassIdentifier: 
+  Path: event:/vo/laurinha/vo_laurinha_celular
+  Guid:
+    Data1: 940936387
+    Data2: 1234460222
+    Data3: 1323094416
+    Data4: -2083071057
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14100
+--- !u!114 &1323003295599746012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/salete/vo_salete_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/salete/vo_salete_completo
+  Guid:
+    Data1: -1600767230
+    Data2: 1157453815
+    Data3: 1189152695
+    Data4: -119420926
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &1456828062644993530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/christine/vo_christine_jaleco_brim
+  m_EditorClassIdentifier: 
+  Path: event:/vo/christine/vo_christine_jaleco_brim
+  Guid:
+    Data1: -542829753
+    Data2: 1314939532
+    Data3: -1683223414
+    Data4: 1840423840
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26000
+--- !u!114 &2397604805527575735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_map_memory/p_stage
+  m_EditorClassIdentifier: 
+  Name: p_stage
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 2733402039
+    data2: 899440297
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2740247921904355207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_map_click
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_map_click
+  Guid:
+    Data1: -1608945801
+    Data2: 1283627506
+    Data3: 1772122509
+    Data4: -359483135
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &2850443093987800958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_memory_click
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_memory_click
+  Guid:
+    Data1: 1018218857
+    Data2: 1086012426
+    Data3: 1559711130
+    Data4: -831733469
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3866
+--- !u!114 &3011842617915839900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_gloria
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_gloria
+  Guid:
+    Data1: -1497351241
+    Data2: 1114491090
+    Data3: -749861213
+    Data4: 635571419
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &3062013977844449743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/salete/vo_salete_panela
+  m_EditorClassIdentifier: 
+  Path: event:/vo/salete/vo_salete_panela
+  Guid:
+    Data1: -310238751
+    Data2: 1168834791
+    Data3: -2130604894
+    Data4: 543079837
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11000
+--- !u!114 &3280595246789147354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/laurinha/vo_laurinha_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/laurinha/vo_laurinha_completo
+  Guid:
+    Data1: 1793166671
+    Data2: 1088813951
+    Data3: 2109179788
+    Data4: -1941755913
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &3325999220773088198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_salete
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_salete
+  Guid:
+    Data1: -1346691870
+    Data2: 1103667039
+    Data3: -2108674148
+    Data4: 1943853794
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &3435034968039642363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_christine
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_christine
+  Guid:
+    Data1: -240713645
+    Data2: 1278231281
+    Data3: 877457832
+    Data4: 721205004
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &3481637869767175803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/salete/vo_salete_maos
+  m_EditorClassIdentifier: 
+  Path: event:/vo/salete/vo_salete_maos
+  Guid:
+    Data1: 1767009318
+    Data2: 1080713580
+    Data3: -243960178
+    Data4: 205063308
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27871
+--- !u!114 &3685535587055333334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/gloria/vo_gloria_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/gloria/vo_gloria_completo
+  Guid:
+    Data1: 1876582611
+    Data2: 1195443865
+    Data3: 1228277149
+    Data4: 1897340222
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &3984539216622189285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/christine/vo_christine_completo
+  m_EditorClassIdentifier: 
+  Path: event:/vo/christine/vo_christine_completo
+  Guid:
+    Data1: -692047877
+    Data2: 1212658920
+    Data3: -742346867
+    Data4: 1482222184
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65000
+--- !u!114 &4063723234053107690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/abrilhante/vo_abrilhante_rabeta
+  m_EditorClassIdentifier: 
+  Path: event:/vo/abrilhante/vo_abrilhante_rabeta
+  Guid:
+    Data1: -498154455
+    Data2: 1241581667
+    Data3: -78732396
+    Data4: -394127919
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 43000
+--- !u!114 &4152357279697237704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/alexandra/vo_alexandra_mestre_cabotagem
+  m_EditorClassIdentifier: 
+  Path: event:/vo/alexandra/vo_alexandra_mestre_cabotagem
+  Guid:
+    Data1: 131303592
+    Data2: 1122840523
+    Data3: -1085915763
+    Data4: -315791827
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 58000
+--- !u!114 &4666036394480886488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/diele/vo_diele_refrigerante
+  m_EditorClassIdentifier: 
+  Path: event:/vo/diele/vo_diele_refrigerante
+  Guid:
+    Data1: -79655819
+    Data2: 1161027597
+    Data3: 1894566804
+    Data4: 1192769383
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 35500
+--- !u!114 &5420344026417085262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/alexandra/vo_alexandra_barca
+  m_EditorClassIdentifier: 
+  Path: event:/vo/alexandra/vo_alexandra_barca
+  Guid:
+    Data1: 348533884
+    Data2: 1155177383
+    Data3: -865982320
+    Data4: 1036737584
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19000
+--- !u!114 &5522319740140866378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_play_click
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_play_click
+  Guid:
+    Data1: 807561443
+    Data2: 1217505974
+    Data3: -1377502325
+    Data4: -275590978
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1366
+--- !u!114 &7080133182497040603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/salete/vo_salete_lenha
+  m_EditorClassIdentifier: 
+  Path: event:/vo/salete/vo_salete_lenha
+  Guid:
+    Data1: 1546613469
+    Data2: 1244919044
+    Data3: -944832346
+    Data4: -223941301
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
+--- !u!114 &7089491105871155012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/memory/sfx_memory_card
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/memory/sfx_memory_card
+  Guid:
+    Data1: -1778957593
+    Data2: 1127703149
+    Data3: 1926308279
+    Data4: 1645437649
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 900
+--- !u!114 &7128304131701832215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/gloria/vo_gloria_obaluai
+  m_EditorClassIdentifier: 
+  Path: event:/vo/gloria/vo_gloria_obaluai
+  Guid:
+    Data1: 1831520041
+    Data2: 1226316911
+    Data3: 1374014113
+    Data4: 1935196870
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48500
+--- !u!114 &7670433639616176176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: mulheres_agua_v7/mulheres_agua_v1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638739671851330548
+  FileSizes:
+  - Name: Desktop
+    Value: 4474
+  Exists: 1
+--- !u!114 &7781201675521150261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ingame/sfx_item_drag
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ingame/sfx_item_drag
+  Guid:
+    Data1: 1095190991
+    Data2: 1103581962
+    Data3: -960679508
+    Data4: -12431232
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
+--- !u!114 &7922503759908242130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/cassiane/vo_cassiane_boia_ondas
+  m_EditorClassIdentifier: 
+  Path: event:/vo/cassiane/vo_cassiane_boia_ondas
+  Guid:
+    Data1: 1475313430
+    Data2: 1166393810
+    Data3: -857266297
+    Data4: -1753951069
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37000
+--- !u!114 &8180248893837280002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/abrilhante/vo_abrilhante_revista
+  m_EditorClassIdentifier: 
+  Path: event:/vo/abrilhante/vo_abrilhante_revista
+  Guid:
+    Data1: 242355165
+    Data2: 1182991510
+    Data3: 524036019
+    Data4: -325546654
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29870
+--- !u!114 &8269299852279156492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_alexandra
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_alexandra
+  Guid:
+    Data1: -291591717
+    Data2: 1170401076
+    Data3: -375012947
+    Data4: -1426473599
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &8277090329136246487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/vo.bank
+  m_EditorClassIdentifier: 
+  Path: mulheres_agua_v7/mulheres_agua_v1/Build/Desktop/vo.bank
+  Name: vo
+  StudioPath: bank:/vo
+  lastModified: 638684611903804143
+  FileSizes:
+  - Name: Desktop
+    Value: 16903968
+  Exists: 1
+--- !u!114 &8340994863632646517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/diele/vo_diele_canoa
+  m_EditorClassIdentifier: 
+  Path: event:/vo/diele/vo_diele_canoa
+  Guid:
+    Data1: -375239630
+    Data2: 1247256523
+    Data3: 1129194404
+    Data4: -8385944
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &8418670602315013469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb_diele
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb_diele
+  Guid:
+    Data1: 1550563321
+    Data2: 1271821998
+    Data3: -185603420
+    Data4: 967053519
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &8544300620779168037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ui/sfx_ui_memory_play
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ui/sfx_ui_memory_play
+  Guid:
+    Data1: -638114011
+    Data2: 1214819115
+    Data3: -1172715591
+    Data4: 1531277121
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2666
+--- !u!114 &8713100762690533401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/christine/vo_christine_mascara_soldagem
+  m_EditorClassIdentifier: 
+  Path: event:/vo/christine/vo_christine_mascara_soldagem
+  Guid:
+    Data1: 769807255
+    Data2: 1132361780
+    Data3: -1424722046
+    Data4: 1931144413
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
+--- !u!114 &8799182335533800434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vo/laurinha/vo_laurinha_microfone
+  m_EditorClassIdentifier: 
+  Path: event:/vo/laurinha/vo_laurinha_microfone
+  Guid:
+    Data1: -176640939
+    Data2: 1322668392
+    Data3: 1468190908
+    Data4: 781372388
+  Banks:
+  - {fileID: 8277090329136246487}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16500
+--- !u!114 &8813583955689143919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: mulheres_agua_v7/mulheres_agua_v1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638739671851290536
+  FileSizes:
+  - Name: Desktop
+    Value: 3044
+  Exists: 1
+--- !u!114 &8843292876407295192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/ingame/sfx_item_wrong
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/ingame/sfx_item_wrong
+  Guid:
+    Data1: -901847832
+    Data2: 1263589705
+    Data3: -1489530238
+    Data4: -1745847894
+  Banks:
+  - {fileID: -3288986056030974992}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
