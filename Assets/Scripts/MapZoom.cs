@@ -18,6 +18,11 @@ public class MapZoom : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     [SerializeField] Sprite btnZoom;
     [SerializeField] Button btn;
 
+    [SerializeField] float minX;
+    [SerializeField] float maxX;
+    [SerializeField] float minY;
+    [SerializeField] float maxY;
+
     private Vector2 lastMousePosition;
     private RectTransform canvasRect;
     private bool zoomIn;
@@ -66,7 +71,8 @@ public class MapZoom : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void ZoomIn()
     {
-        float newScale = Mathf.Clamp(mapContainer.localScale.x + zoomSpeed, minZoom, maxZoom);
+        // float newScale = Mathf.Clamp(mapContainer.localScale.x + zoomSpeed, minZoom, maxZoom);
+        float newScale = maxZoom;
         mapContainer.localScale = new Vector3(newScale, newScale, 1);
         zoomIn = true;
 
@@ -74,7 +80,8 @@ public class MapZoom : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void ZoomOut()
     {
-        float newScale = Mathf.Clamp(mapContainer.localScale.x - zoomSpeed, minZoom, maxZoom);
+        //float newScale = Mathf.Clamp(mapContainer.localScale.x - zoomSpeed, minZoom, maxZoom);
+        float newScale = minZoom;
         mapContainer.localScale = new Vector3(newScale, newScale, 1);
         zoomIn = false;
 
@@ -119,8 +126,8 @@ public class MapZoom : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         Vector3 minPosition = canvasRect.rect.min - map.rect.min * map.localScale.x ;
         Vector3 maxPosition = canvasRect.rect.max - map.rect.max * map.localScale.x ;
 
-        position.x = Mathf.Clamp(position.x, minPosition.x - 150f, maxPosition.x + 150f);
-        position.y = Mathf.Clamp(position.y, minPosition.y - 200f, maxPosition.y + 200f);
+        position.x = Mathf.Clamp(position.x, minPosition.x - minX, maxPosition.x + maxX);//direita esquerda
+        position.y = Mathf.Clamp(position.y, minPosition.y - minY, maxPosition.y + maxY); //cima e baixo
 
         return position;
     }

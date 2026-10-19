@@ -68,16 +68,20 @@ public class ItemThrowDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             // Atualiza a posição da imagem baseada na velocidade
             Vector3 newPosition = dropImage.rectTransform.position + (Vector3)(velocity * Time.deltaTime);
 
-            // ?? Verifica o limite horizontal à direita
+            // Verifica o limite horizontal à direita
             float halfWidth = dropImage.rectTransform.sizeDelta.x * dropImage.rectTransform.lossyScale.x / 2f;
             newPosition.x = Mathf.Clamp(newPosition.x, halfWidth, rightLimit.position.x - halfWidth);
 
-            // ?? Verifica se atingiu o "chão" definido pelo FloorLimit
+            // Verifica se atingiu o "chão" definido pelo FloorLimit
             float halfHeight = dropImage.rectTransform.sizeDelta.y * dropImage.rectTransform.lossyScale.y / 2f;
+
+            dropImage.GetComponent<DragDrop>().IsFalling(true);
+
             if (newPosition.y <= floorLimit.position.y + halfHeight)
             {
                 newPosition.y = floorLimit.position.y + halfHeight; // Mantém na altura do piso
                 isThrowing = false; // Para o movimento ao tocar o chão
+                dropImage.GetComponent<DragDrop>().IsFalling(false);
             }
 
             dropImage.rectTransform.position = newPosition;

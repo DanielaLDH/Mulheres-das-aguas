@@ -9,9 +9,11 @@ public class AudioPrincipalManager : MonoBehaviour
     private bool isAudioPaused;
     private string currentAudioEvent;
 
+    private IVoiceOwner currentVoiceOwner;
+
     public bool AudioPlaying()
     {
-        return isAudioPlaying;
+        return isAudioPlaying || isAudioPaused;
     }
 
     public bool IsPaused()
@@ -19,9 +21,30 @@ public class AudioPrincipalManager : MonoBehaviour
         return isAudioPaused;
     }
 
+    public void RequestPlay(string audioEventPath, IVoiceOwner newOwner)
+    {
+        if (AudioPlaying() && currentVoiceOwner != null)
+        {
+            bool differentOwner = currentVoiceOwner != newOwner;
+            bool differentAudio = !isSameAudio(audioEventPath);
+
+            if (differentOwner && differentAudio)
+            {
+                currentVoiceOwner.ForceStopAudio();
+            }
+        }
+
+        currentVoiceOwner = newOwner;
+        currentAudioEvent = audioEventPath;
+
+        isAudioPlaying = true;
+        isAudioPaused = false;
+    }
+
     public bool isSameAudio(string audioEventPath)
     {
-        return isAudioPlaying && currentAudioEvent == audioEventPath;
+      //  return isAudioPlaying && currentAudioEvent == audioEventPath;
+      return !string.IsNullOrEmpty(currentAudioEvent) && currentAudioEvent == audioEventPath;
     }
 
     public void AudioStatus(bool audioStatus, string audioEventPath)
@@ -35,8 +58,13 @@ public class AudioPrincipalManager : MonoBehaviour
         }
         else
         {
-            currentAudioEvent = null;
-            isAudioPaused = false;
+            if (isSameAudio(audioEventPath))
+            {
+                currentAudioEvent = null;
+                isAudioPaused = false;
+                currentVoiceOwner = null;
+            }
+            
         }
     }
 
@@ -45,14 +73,30 @@ public class AudioPrincipalManager : MonoBehaviour
         if (isAudioPlaying)
         {
             isAudioPaused = true;
+            isAudioPlaying= false;
         }
     }
 
     public void ResumeAudio()
     {
-        if (isAudioPlaying && isAudioPaused)
+        if (isAudioPaused)
         {
-            isAudioPaused=false;
+            isAudioPaused = false;
+            isAudioPlaying = true;
+        }
+    }
+
+    public void ForceStopCurrent()
+    {
+        if(currentVoiceOwner != null)
+        {
+            currentVoiceOwner.ForceStopAudio();
+        }
+        else
+        {
+            isAudioPlaying = false;
+            isAudioPaused = false;
+            currentAudioEvent = null;
         }
     }
 

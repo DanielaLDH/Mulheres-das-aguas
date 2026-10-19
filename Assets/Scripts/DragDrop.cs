@@ -11,6 +11,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     [SerializeField] GameObject itemThrow;
 
     public int codigo;
+    public bool canGet = false;
 
     private Vector3 startPosition;
     private CanvasGroup canvasGroup;
@@ -42,6 +43,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (isPlacedCorrectly) return;
+        if (!canGet) return;
 
         canvasGroup.alpha = 0.6f; // Torna o objeto parcialmente transparente
         canvasGroup.blocksRaycasts = false; // Permite que o objeto passe por outros objetos raycast
@@ -53,6 +55,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void OnDrag(PointerEventData eventData)
     {
         if (isPlacedCorrectly) return;
+        if (!canGet) return;
 
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
@@ -78,7 +81,6 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-
         TooltipManager.Instance.SetAndShowToolTip(TooltipManager.Instance.imagemItem);
 
     }
@@ -87,4 +89,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         TooltipManager.Instance.HideToolTip();
     }
+
+    public void IsFalling(bool state) { canGet = !state; }
+   
 }

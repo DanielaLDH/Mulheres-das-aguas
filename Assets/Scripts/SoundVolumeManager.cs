@@ -18,6 +18,8 @@ public class SoundVolumeManager : MonoBehaviour
     private Bus sfxUI;
     private Bus ambSound;
 
+    public static bool SfxMuted;
+
 
     void Start()
     {
@@ -29,15 +31,16 @@ public class SoundVolumeManager : MonoBehaviour
 
         if (!PlayerPrefs.HasKey("musicVolume"))
         {
-            PlayerPrefs.SetFloat("musicVolume", 1f); 
+            PlayerPrefs.SetFloat("musicVolume", 0.5f);
         }
 
         if (!PlayerPrefs.HasKey("sfxVolume"))
         {
-            PlayerPrefs.SetFloat("sfxVolume", 1f); 
+            PlayerPrefs.SetFloat("sfxVolume", 0.5f);
         }
 
-       // LoadVolume();
+        LoadVolume();
+        
     }
 
     public void SetMusicVolume() 
@@ -46,7 +49,7 @@ public class SoundVolumeManager : MonoBehaviour
         float volume = musicSlider.value;
         musicBus.setVolume(volume);
         ambSound.setVolume(volume);
-        SaveVolume();
+       // SaveVolume();
         if (volume == 0)
         {
             soundController.VolumeOff();
@@ -67,7 +70,10 @@ public class SoundVolumeManager : MonoBehaviour
         float volume = sfxSlider.value;
         sfxBus.setVolume(volume);
         sfxUI.setVolume(volume);
-        SaveVolume();
+        //SaveVolume();
+
+        SfxMuted = volume <= 0.0001;
+        
         if (volume == 0)
         {
             soundController.VolumeOff();
@@ -88,20 +94,20 @@ public class SoundVolumeManager : MonoBehaviour
 
     }
 
-    //public void LoadVolume()
-    //{
+    public void LoadVolume()
+    {
 
-    //    float musicVolume = PlayerPrefs.GetFloat("musicVolume");
-    //    float sfxVolume = PlayerPrefs.GetFloat("sfxVolume");
+        //float musicVolume = PlayerPrefs.GetFloat("musicVolume");
+        //float sfxVolume = PlayerPrefs.GetFloat("sfxVolume");
+        
 
-    //    musicBus.setVolume(musicVolume);
-    //    sfxBus.setVolume(sfxVolume);
-    //    sfxUI.setVolume(sfxVolume);
+        musicBus.setVolume(musicSlider.value);
+        sfxBus.setVolume(sfxSlider.value);
+        sfxUI.setVolume(sfxSlider.value);
 
-    //    sfxSlider.value = sfxVolume;
-    //    musicSlider.value = musicVolume;
+        
 
-    //}
+    }
 
     public void VerificaValor()
     {

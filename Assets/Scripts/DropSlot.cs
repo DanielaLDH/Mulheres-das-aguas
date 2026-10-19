@@ -24,9 +24,11 @@ public class DropSlot : MonoBehaviour, IDropHandler
     {
         if (isPlaced) return;
 
+
         if (eventData.pointerDrag != null)
         {
             DragDrop draggedItem = eventData.pointerDrag.GetComponent<DragDrop>();
+            if(draggedItem == null) return;
 
             if (draggedItem.codigo == codigo)
             {

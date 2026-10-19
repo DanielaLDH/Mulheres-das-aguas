@@ -5,6 +5,12 @@ using UnityEngine.UI;
 
 public class MoneyManagement : MonoBehaviour
 {
+    [SerializeField] float popMultiplier = 1.2f;
+    [SerializeField] float popSeconds = 0.2f;
+    [SerializeField] AudioSource AudioSource;
+
+    Vector3 originalScale;
+    Coroutine popRoutine;
 
     Text uiMoney;
     public int amount;
@@ -13,6 +19,7 @@ public class MoneyManagement : MonoBehaviour
     void Start()
     {
         uiMoney = GetComponent<Text>();
+        originalScale = transform.localScale;
     }
 
     // Update is called once per frame
@@ -30,7 +37,21 @@ public class MoneyManagement : MonoBehaviour
         amount += coins; 
         uiMoney.text = amount.ToString();
         Debug.Log(amount);
+
+        AudioSource.Play();
+
+        if (popRoutine != null) StopCoroutine(popRoutine);
+        popRoutine = StartCoroutine(PopScale());
     }
+
+    IEnumerator PopScale()
+    {
+        transform.localScale = originalScale * popMultiplier;
+        yield return new WaitForSeconds(popSeconds);
+        transform.localScale = originalScale;
+        popRoutine = null;
+    }
+
 
     public void RemoveMoney(int coins)
     {
