@@ -83,6 +83,7 @@ public class FalasManager : MonoBehaviour
         {
             currentEventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             currentEventInstance.release();
+            currentEventInstance = default;
             UnityEngine.Debug.Log("Current fala stopped.");
         }
     }
@@ -90,6 +91,18 @@ public class FalasManager : MonoBehaviour
      public EventInstance GetCurrentEventInstance()
     {
         return currentEventInstance; // Retorna a instância atual para ser usada por outras classes
+    }
+
+    public bool HasValidInstance()
+    {
+        return currentEventInstance.isValid();
+    }
+
+    public FMOD.Studio.PLAYBACK_STATE GetPlaybackState()
+    {
+        if(!currentEventInstance.isValid()) return FMOD.Studio.PLAYBACK_STATE.STOPPED;
+        currentEventInstance.getPlaybackState(out FMOD.Studio.PLAYBACK_STATE state);
+        return state;
     }
 
     //public bool IsAudioPlaying()

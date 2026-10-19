@@ -6,6 +6,8 @@ public class CharacterHistoryManager : MonoBehaviour
 {
     [SerializeField] GameObject blur;
 
+    bool isDone = false;
+
     void Start()
     {
         
@@ -21,6 +23,15 @@ public class CharacterHistoryManager : MonoBehaviour
     {
         gameObject.SetActive(false);
         blur.SetActive(false);
+        if (isDone)
+        {
+            return;
+        }
+        else
+        {
+            CountFinishedGame.instance.CountToFinish();
+            isDone = true;
+        }
 
     }
 }

@@ -31,7 +31,12 @@ public class CharacterClick : MonoBehaviour, IPointerClickHandler, IPointerEnter
     public void OnPointerClick(PointerEventData eventData)
     {
         animator.SetTrigger("click");
+        OpenGame();
+      
+    }
 
+    public void OpenGame()
+    {
         if (anim != null)
         {
             sfxManager.PlaySFX(sfxManager.sfx_ui_memory_click);
@@ -43,8 +48,8 @@ public class CharacterClick : MonoBehaviour, IPointerClickHandler, IPointerEnter
             anim.gameObject.SetActive(true);
             StartCoroutine(DisableAfterTime(6f)); // Inicia a Coroutine para desativar após 6 segundos
             musicManager.EnterMemoryGame();
-           
-            
+
+
         }
         else
         {
@@ -54,8 +59,6 @@ public class CharacterClick : MonoBehaviour, IPointerClickHandler, IPointerEnter
             blur.SetActive(true);
             musicManager.EnterPhase();
         }
-
-
     }
 
     public void ChangeCharacterMap(GameObject newGame)

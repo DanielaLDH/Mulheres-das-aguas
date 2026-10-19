@@ -63,6 +63,7 @@ public class TipsGameManager : MonoBehaviour
             memoryGame.SetActive(true);
             musicManager.CompletePhase();
 
+            CoroutineManager.instance.StartCorr(ChangeGame());
         }
         else
         {
@@ -71,5 +72,12 @@ public class TipsGameManager : MonoBehaviour
             index++;
             
         }
+    }
+
+    IEnumerator ChangeGame()
+    {
+        yield return new WaitForSeconds(2f);
+        memoryGame.GetComponent<CharacterClick>().OpenGame();
+
     }
 }

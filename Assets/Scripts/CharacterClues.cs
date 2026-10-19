@@ -32,10 +32,8 @@ public class CharacterClues : MonoBehaviour
 
     public void OnExit()
     {
-        if (principalManager.AudioPlaying())
-        {
-            return;
-        }
+        principalManager.ForceStopCurrent();
+
         gameObject.SetActive(false);
         blur.SetActive(false);
         musicManager.EnterMap();

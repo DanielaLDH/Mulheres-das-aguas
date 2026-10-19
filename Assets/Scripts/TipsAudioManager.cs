@@ -5,9 +5,10 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-public class TipsAudioManager : MonoBehaviour
+public class TipsAudioManager : MonoBehaviour, IVoiceOwner
 {
- 
+    public string getVoicePath() => audioEventPath;
+
     [SerializeField] private int maxPlays;
     [SerializeField] private int pointsPerSinglePlay;
     [SerializeField] private MoneyManagement moneyManagement;
@@ -51,11 +52,11 @@ public class TipsAudioManager : MonoBehaviour
     {
 
         //Se outro áudio está tocando ou pausado, não deixa tocar outro
-        if (principalManager.AudioPlaying() && !principalManager.isSameAudio(audioEventPath))
-        {
-            Debug.Log("Outro áudio de voz está tocando. Aguarde antes de reproduzir um novo.");
-            return;
-        }
+        //if (principalManager.AudioPlaying() && !principalManager.isSameAudio(audioEventPath))
+        //{
+        //    Debug.Log("Outro áudio de voz está tocando. Aguarde antes de reproduzir um novo.");
+        //    return;
+        //}
 
         //Se o mesmo áudio está tocando, PAUSA
         if (principalManager.isSameAudio(audioEventPath) && !principalManager.IsPaused())
@@ -87,6 +88,8 @@ public class TipsAudioManager : MonoBehaviour
             }
             return;
         }
+
+        principalManager.RequestPlay(audioEventPath, this);
 
         if (playCount < maxPlays) 
         {
@@ -148,7 +151,7 @@ public class TipsAudioManager : MonoBehaviour
         animator.SetTrigger(animationTrigger);
         animator.SetFloat("speedMultiplier", 1.0f / duration);
         
-        StartCoroutine(WaitForAudioToEnd(duration));
+        StartCoroutine(WaitForFmodToEnd());
 
     }
 
@@ -163,8 +166,32 @@ public class TipsAudioManager : MonoBehaviour
 
     }
 
+    private IEnumerator WaitForFmodToEnd()
+    {
+        while (true)
+        {
+            if(!falasManager.HasValidInstance())
+                yield break;
+
+            var state = falasManager.GetPlaybackState();
+
+            if (state == FMOD.Studio.PLAYBACK_STATE.STOPPED)
+                break;
+
+            yield return null;
+        }
+        isAudioPlaying = false;
+        animator.SetFloat("speedMultiplier", 1.0f);// Reseta a velocidade da animação
+        animator.enabled = false;
+        UpdateButtonSprite();
+        principalManager.AudioStatus(false, audioEventPath);
+
+    }
+
     public void ForceStopAudio()
     {
+        StopAllCoroutines();
+
         falasManager.StopCurrentFala();
         principalManager.AudioStatus(false, audioEventPath);
         isAudioPlaying = false;
@@ -172,6 +199,12 @@ public class TipsAudioManager : MonoBehaviour
         animator.SetFloat("speedMultiplier", 1.0f);
         animator.enabled = false;
         legenda.SetActive(false);
+
+        if (videoPlayer != null && videoPlayer.TryGetComponent<UnityEngine.Video.VideoPlayer>(out var vp))
+        {
+            vp.Stop();
+        }
+        UpdateButtonSprite();
     }
 
 
@@ -203,4 +236,8 @@ public class TipsAudioManager : MonoBehaviour
         }
     }
 
+    public string GetVoicePath()
+    {
+        throw new System.NotImplementedException();
+    }
 }

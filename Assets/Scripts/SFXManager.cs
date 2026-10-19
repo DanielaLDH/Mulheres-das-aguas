@@ -57,6 +57,7 @@ public class SFXManager : MonoBehaviour
 
     public void PlaySFX(string fmodEventPath)
     {
+        if (SoundVolumeManager.SfxMuted) return;
         Debug.Log($"Playing SFX: {fmodEventPath}");
         RuntimeManager.PlayOneShot(fmodEventPath);
     }
