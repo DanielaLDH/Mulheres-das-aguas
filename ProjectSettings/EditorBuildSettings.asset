@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 446215af7d6e74b429159b577b857fa3
   - enabled: 1
+    path: Assets/Scenes/MapaFases.unity
+    guid: 1230222bba52f0b4dba5f8659a848d3e
+  - enabled: 1
     path: Assets/Scenes/anim.unity
     guid: 8695def4d4203494080830b50bd1f887
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MulheresdaAguasRIO.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MulheresdaAguasBAHIA.unity
+    guid: be7be484cc1288c4f9a9d4f2f89782e7
   m_configObjects: {}
