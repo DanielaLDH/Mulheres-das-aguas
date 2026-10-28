@@ -24,6 +24,30 @@ public class ItemThrowDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public float scaleFactor = 1.1f; // Fator de aumento, por exemplo, 1.1 para 10% maior
 
 
+    private void Awake()
+    {
+        Button button = GetComponent<Button>();
+
+        if (button == null)
+            return;
+
+        bool hasOnItemClicked = false;
+
+        for (int i = 0; i < button.onClick.GetPersistentEventCount(); i++)
+        {
+            if (button.onClick.GetPersistentTarget(i) == this &&
+                button.onClick.GetPersistentMethodName(i) == nameof(OnItemClicked))
+            {
+                hasOnItemClicked = true;
+                break;
+            }
+        }
+
+        if (!hasOnItemClicked)
+            button.onClick.AddListener(OnItemClicked);
+    }
+
+
     void Start()
     {
         hoverAnim = GetComponent<Animator>();
@@ -43,8 +67,9 @@ public class ItemThrowDrop : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void OnItemClicked()
     {
-        if (isPlacedCorrectly) return;
-        
+        if (isPlacedCorrectly || dropImage == null || isThrowing)
+            return;
+
         sfxManager.PlaySFX(sfxManager.sfx_item_interaction);
 
         // Defina a posição inicial e ative a imagem

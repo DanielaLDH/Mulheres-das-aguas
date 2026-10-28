@@ -1,32 +1,30 @@
+
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class RandomizePrefabsInGrid : MonoBehaviour
 {
-    public GameObject[] prefabsToAdd; // Array com os 4 prefabs
-
     void Start()
     {
-        RandomizeAndAddPrefabs();
-    }
+        List<Transform> items = new List<Transform>();
 
-    void RandomizeAndAddPrefabs()
-    {
-        // Copia e embaralha a lista de prefabs
-        List<GameObject> prefabsList = new List<GameObject>(prefabsToAdd);
-        for (int i = 0; i < prefabsList.Count; i++)
+        foreach (Transform child in transform)
         {
-            GameObject temp = prefabsList[i];
-            int randomIndex = Random.Range(i, prefabsList.Count);
-            prefabsList[i] = prefabsList[randomIndex];
-            prefabsList[randomIndex] = temp;
+            items.Add(child);
         }
 
-        // Instancia os prefabs no grid
-        foreach (GameObject prefab in prefabsList)
+        for (int i = 0; i < items.Count; i++)
         {
-            Instantiate(prefab, gameObject.transform);
+            int randomIndex = Random.Range(i, items.Count);
+
+            Transform temp = items[i];
+            items[i] = items[randomIndex];
+            items[randomIndex] = temp;
+        }
+
+        for (int i = 0; i < items.Count; i++)
+        {
+            items[i].SetSiblingIndex(i);
         }
     }
 }

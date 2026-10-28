@@ -21,7 +21,7 @@ public class SubtitleManager : MonoBehaviour
     public List<SubtitleLine> subtitles;
     private EventInstance eventInstance;
 
-
+    [SerializeField] private RectTransform legendaPosition;
 
     private void Update()
     {
@@ -62,6 +62,15 @@ public class SubtitleManager : MonoBehaviour
         subtitleText.text = string.Empty;
 
 
+    }
+
+    private void OnEnable()
+    {
+        if (legendaPosition == null)
+            return;
+
+        RectTransform subtitleRect = GetComponent<RectTransform>();
+        subtitleRect.position = legendaPosition.position;
     }
 
 
