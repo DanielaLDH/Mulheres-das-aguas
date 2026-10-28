@@ -41,6 +41,6 @@ public class ShowAnimOnStart : MonoBehaviour
         fadeout.SetActive(true);
         yield return new WaitForSeconds(1f); // tempo da animação de fade
 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
