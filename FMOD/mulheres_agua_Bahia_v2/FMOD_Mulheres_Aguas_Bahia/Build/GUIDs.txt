@@ -1,0 +1,6 @@
+{87f9a773-4556-440c-a7cf-81fff4e70561} bank:/Master
+{1fe487a7-342d-084e-2186-0b01051403f9} bank:/Master.strings
+{282614ae-9418-4fe5-a2d4-b1b65aa63978} bus:/
+{186e86f5-7d9b-495b-991c-7531ce078354} bus:/Reverb
+{8d11c1f8-9aaf-44db-99f4-a9baa0049759} event:/AMB/Menu
+{4b0a76dd-cb4b-4757-a916-dbdf509f6e73} event:/MUS/Intro

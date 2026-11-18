@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{dd9bd5f6-e6bc-40f8-b260-5f9caea3dc58}">
+		<property name="assetPath">
+			<value>MUS_Canto Mulheres - stem_90BPM_4-4.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>74.666666666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{02dda17a-5b74-4692-8774-59c5917fc697}</destination>
+		</relationship>
+	</object>
+</objects>
