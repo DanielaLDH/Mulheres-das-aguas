@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a43626ce-ab9d-4455-9b39-df2bca078727}">
 		<property name="assetPath">
-			<value>iemanja-gloria.wav</value>
+			<value>Assets_Rio/iemanja-gloria.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

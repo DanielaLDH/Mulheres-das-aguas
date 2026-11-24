@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{69aa12b3-97a0-4779-929e-c2e76e51e627}">
 		<property name="assetPath">
-			<value>christiane-makita.wav</value>
+			<value>Assets_Rio/christiane-makita.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

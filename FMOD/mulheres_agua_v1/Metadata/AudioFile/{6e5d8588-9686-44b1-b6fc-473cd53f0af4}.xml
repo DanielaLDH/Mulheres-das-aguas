@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6e5d8588-9686-44b1-b6fc-473cd53f0af4}">
 		<property name="assetPath">
-			<value>alexandra-produtos-limpeza.wav</value>
+			<value>Assets_Rio/alexandra-produtos-limpeza.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

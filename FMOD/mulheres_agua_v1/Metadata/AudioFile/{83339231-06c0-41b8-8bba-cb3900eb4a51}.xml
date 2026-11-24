@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{83339231-06c0-41b8-8bba-cb3900eb4a51}">
 		<property name="assetPath">
-			<value>vidrinhos-tempero-laurinha.wav</value>
+			<value>Assets_Rio/vidrinhos-tempero-laurinha.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

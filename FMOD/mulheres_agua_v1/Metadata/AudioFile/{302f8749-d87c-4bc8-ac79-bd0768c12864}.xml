@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{302f8749-d87c-4bc8-ac79-bd0768c12864}">
 		<property name="assetPath">
-			<value>mus_ingame_layer7.wav</value>
+			<value>Assets_Rio/mus_ingame_layer7.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

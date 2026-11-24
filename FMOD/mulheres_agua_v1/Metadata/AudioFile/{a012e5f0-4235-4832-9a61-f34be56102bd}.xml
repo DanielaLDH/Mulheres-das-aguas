@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a012e5f0-4235-4832-9a61-f34be56102bd}">
 		<property name="assetPath">
-			<value>vento-diele.wav</value>
+			<value>Assets_Rio/vento-diele.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

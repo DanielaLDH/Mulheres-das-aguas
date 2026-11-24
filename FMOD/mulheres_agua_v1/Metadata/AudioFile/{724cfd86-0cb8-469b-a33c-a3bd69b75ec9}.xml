@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{724cfd86-0cb8-469b-a33c-a3bd69b75ec9}">
 		<property name="assetPath">
-			<value>celular-laurinha.wav</value>
+			<value>Assets_Rio/celular-laurinha.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

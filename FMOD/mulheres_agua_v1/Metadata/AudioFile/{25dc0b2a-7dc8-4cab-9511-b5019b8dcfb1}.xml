@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{25dc0b2a-7dc8-4cab-9511-b5019b8dcfb1}">
 		<property name="assetPath">
-			<value>obaluai-gloria.wav</value>
+			<value>Assets_Rio/obaluai-gloria.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

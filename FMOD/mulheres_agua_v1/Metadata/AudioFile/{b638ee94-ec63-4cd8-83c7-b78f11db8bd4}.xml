@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b638ee94-ec63-4cd8-83c7-b78f11db8bd4}">
 		<property name="assetPath">
-			<value>cassiana-areia.wav</value>
+			<value>Assets_Rio/cassiana-areia.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
