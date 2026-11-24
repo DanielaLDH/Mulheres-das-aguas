@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{91ae2044-6ed6-47e6-999b-e267f1a979dc}">
+		<property name="assetPath">
+			<value>MUS_Bass - stem_90BPM_4-4.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>74.666666666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{932feacd-cf23-49c1-9810-951befb65c9f}</destination>
+		</relationship>
+	</object>
+</objects>

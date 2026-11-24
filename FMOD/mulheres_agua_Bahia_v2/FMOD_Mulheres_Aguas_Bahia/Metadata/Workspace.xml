@@ -2,31 +2,31 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{a79dc64a-7f1e-489c-98b9-1d1a7f3ef58f}">
 		<relationship name="masterEventFolder">
-			<destination>{368f6953-81db-4600-a2df-ff7573cb4380}</destination>
+			<destination>{4d5614e2-2ddc-4a81-a180-5761bd39b91c}</destination>
 		</relationship>
 		<relationship name="masterTagFolder">
-			<destination>{2b62e566-683c-43e8-b5fe-fdce745b53df}</destination>
+			<destination>{54a7f582-c2b7-4272-9b7a-370624d629f5}</destination>
 		</relationship>
 		<relationship name="masterEffectPresetFolder">
-			<destination>{6bed7ac6-59d8-499d-a81e-3c8af6586dd4}</destination>
+			<destination>{fc02ee30-5bc8-47e6-915d-d99944a3bb96}</destination>
 		</relationship>
 		<relationship name="masterParameterPresetFolder">
-			<destination>{cb0c512b-b3c8-4091-9311-881fd2e9ada5}</destination>
+			<destination>{c2dca738-a7e6-4588-9384-2ccda5b4badc}</destination>
 		</relationship>
 		<relationship name="masterBankFolder">
-			<destination>{54dbee7b-e36b-463b-bc13-192eae4d6c44}</destination>
+			<destination>{9a5bc0f3-b253-474f-9cfb-5af247ae591f}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{db5da97a-f1ca-4abd-a980-6d472b62cb49}</destination>
+			<destination>{bb31c85a-0765-4890-b6f9-6b0d4cf379b7}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
-			<destination>{02dda17a-5b74-4692-8774-59c5917fc697}</destination>
+			<destination>{932feacd-cf23-49c1-9810-951befb65c9f}</destination>
 		</relationship>
 		<relationship name="mixer">
-			<destination>{44918632-6b9e-49ea-b8e0-d835811115fc}</destination>
+			<destination>{8d9d0a0a-fa3a-45aa-abf0-dcb4e9815729}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{ae530278-7d83-4986-8522-c9e1b95e7238}</destination>
+			<destination>{4c5dbf81-e43d-4193-a826-3598d8ef0d9e}</destination>
 		</relationship>
 		<relationship name="platforms">
 			<destination>{20db10fe-1631-40b1-a271-c9ab83b03b2d}</destination>

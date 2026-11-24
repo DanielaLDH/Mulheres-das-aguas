@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2834b2db-cfa4-4e50-bcd0-71e72bb40077}">
+		<property name="assetPath">
+			<value>AMB_Menu.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>88</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{932feacd-cf23-49c1-9810-951befb65c9f}</destination>
+		</relationship>
+	</object>
+</objects>
