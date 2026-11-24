@@ -634,7 +634,7 @@ MonoBehaviour:
   Path: FMOD/mulheres_agua_v1/Build/Desktop/mus.bank
   Name: mus
   StudioPath: bank:/mus
-  lastModified: 639288004664162016
+  lastModified: 638684399159699378
   FileSizes:
   - Name: Desktop
     Value: 6771200
@@ -816,7 +816,7 @@ MonoBehaviour:
   Path: FMOD/mulheres_agua_v1/Build/Desktop/vo.bank
   Name: vo
   StudioPath: bank:/vo
-  lastModified: 639288004601474925
+  lastModified: 638684611903804143
   FileSizes:
   - Name: Desktop
     Value: 16903968
@@ -1047,7 +1047,7 @@ MonoBehaviour:
   - {fileID: 779954212694104558}
   StringsBanks:
   - {fileID: 6301563183126224117}
-  cacheTime: 639288005294992986
+  cacheTime: 638739671851330548
   cacheVersion: 131621
 --- !u!114 &331486765290374205
 MonoBehaviour:
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   Path: FMOD/mulheres_agua_v1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639288005294992986
+  lastModified: 638739671851290536
   FileSizes:
   - Name: Desktop
     Value: 3044
@@ -1648,7 +1648,7 @@ MonoBehaviour:
   Path: FMOD/mulheres_agua_v1/Build/Desktop/sfx.bank
   Name: sfx
   StudioPath: bank:/sfx
-  lastModified: 639288005149758314
+  lastModified: 638684528978029106
   FileSizes:
   - Name: Desktop
     Value: 3035872
@@ -1722,7 +1722,7 @@ MonoBehaviour:
   Path: FMOD/mulheres_agua_v1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639288005294891659
+  lastModified: 638739671851330548
   FileSizes:
   - Name: Desktop
     Value: 4474
