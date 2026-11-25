@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{26b464bd-019c-4113-a793-426f09f765a3}">
+		<property name="assetPath">
+			<value>Assets_Bahia/MUS/MUS_Canto Mulheres - stem_90BPM_4-4.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>74.666666666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{335d27e5-63d5-456b-b4bb-ace1093a2184}</destination>
+		</relationship>
+	</object>
+</objects>

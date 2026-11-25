@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{8d2e2f5f-69ed-450c-8c93-02c930348ab8}">
+		<property name="assetPath">
+			<value>Assets_Bahia/MUS/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{335d27e5-63d5-456b-b4bb-ace1093a2184}</destination>
+		</relationship>
+	</object>
+</objects>

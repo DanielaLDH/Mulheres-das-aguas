@@ -11,6 +11,8 @@
 {b192f992-7859-4c4f-b38a-1fed55048809} bus:/sfx_ingame
 {4af75bc8-df74-4c42-8a30-3054a607d60f} bus:/sfx_ui
 {0e939af3-c1a3-4084-9d7c-7620e4fc5afc} bus:/vo
+{cff8abdc-d637-4651-9dba-7a663b212f81} event:/Bahia/AMB/Menu
+{1a2c75d4-0a76-4d06-8c93-db1ae490dc95} event:/Bahia/MUS/Gameplay
 {2a627730-ad38-4033-8866-35a9c946583c} event:/amb/amb_abrilhante
 {ee9ea9db-e734-45c2-adc1-a5e981bdf9aa} event:/amb/amb_alexandra
 {a00ca2fd-d261-4116-9525-d76ea9283a92} event:/amb/amb_cassiane
