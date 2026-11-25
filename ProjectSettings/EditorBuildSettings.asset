@@ -20,4 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MulheresdaAguasBAHIA.unity
     guid: be7be484cc1288c4f9a9d4f2f89782e7
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: e2a3c469bea7e194a91fa2184eedcdd0
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
